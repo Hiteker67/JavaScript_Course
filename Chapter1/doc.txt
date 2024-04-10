@@ -1,0 +1,30 @@
+@variables in JS -> Variables are container for data
+
+@variables rules
+    1- variable name are sensitive "a" & "A" is diffrent
+    2- Only letter, digits, underscore(_) and $ is allowed. (not even space)
+    3- only a letter, underScore(_) or $ should be 1st character.
+    4- Reserved words cannot be variable names.
+
+@Reserved Keyword in javascript:-
+ - console
+ - container
+ - etc
+
+@Also use camelcase in js LIke - > fullName  wher fisrt
+word is small and second word first lettr is capital.
+
+@let, const & var:-
+    Var: Variable can be re-declared & updated. A global scope variable.
+    const: Variable cannot be re-declared but can ne updated. A block scope variable.
+    variable: Variable cannto be re-declared or updated.  A block scope variable.
+
+@Data Types:-
+    Primitive Data Types- Number, String, Boolean, Undefined, Null, BigInt, Symbol
+    Non-Primitive Data Types- Objects(Arrays, Functions)
+    
+Qs1:- Create a const object called "product" to store information shown in the picture
+where show name, rating, offer, price?
+
+Qs2:- Create a const object called " profile " to store information shown in the picture?
+Where given name, Follow, post, followers ?
