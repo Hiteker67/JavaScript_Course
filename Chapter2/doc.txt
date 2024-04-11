@@ -1,0 +1,44 @@
+@Comments in JS
+    part of code which is not executed
+    // This is a single line comments.
+    /* Multline comment */
+
+@OPerators in JS
+    used to perform some operation on data
+
+    1- Arithmetic OPerators
+        +, -, *, /, modduls(%), Exponentioal(**), Increment(++), Decrement(--)
+    
+    2- Assignment OPerators
+        =, +=, -=, *=, %=, **=
+    
+    3- Comparision OPerators
+        == (equal to), === (Equal to & check data type), != ( Not equal to ), !== (Not equal to & Type)
+        >, >=, <, <=
+    
+    4- Logical OPerators
+        Logical AND (&&)
+        Logical OR (||)
+        Logical NOT (!)
+    
+    5- Ternary OPerators
+
+        condition ? true output : false output
+
+@Conditional Statements
+    To implement some condition in the code
+        1- If Statement
+        2- If else Statement
+        3- else-if Statement
+
+@MDN Docs(documentation)
+
+Qs1- Get user to input a number using prompt("Enter a number:").
+ Check if the number is a multiple of 5 or not ?
+
+Qs2- Write a code which can give grades to students according to their scores ?
+    90 - 100 A
+    70 - 89 B
+    60 - 69 C
+    50 - 59 D
+    0 - 49 E
