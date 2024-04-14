@@ -1,0 +1,42 @@
+@Start JavaScript Chapter 3
+@ Cover Loops and Strings
+
+    Loops are used to execute a piece of code again & again.
+    1- for Loop
+    2- while Loop
+    3- do-while Loop
+    4- Infinite Loop: A Loop that never ends
+    5- for-of Loop (for useing strings and arrays)
+    6- for-in loop (for using objects and arrays)
+
+@Practice Question
+    1- Print all even number from 0 to 100.
+    2- Create a game where you start with any random game number. Ask the user to keep 
+    Guessing the number untill the user enters correct value.
+
+@String in jS:- String is a sequence of characters used to represent text
+    using str for define strings in "" & ''.
+    -for string length using str.length
+
+@Template Literals in js:-
+    A way to have embedded expression in strings
+    'this is a template literals' (``)\
+
+    String Interpolation:-
+        To create strings by doing substitution of placeholders
+        
+        `string text ${expression} string text`
+    
+    String Methods in JS:-
+    These are built in function to manipulate a string
+        1- str.toUpperCase() // to make upper case all word
+        2- str.toLowerCase() //to make lower case all word
+        3- str.trim() // removes whitespaces
+        4- str.slice(start, end?) // returns part of string
+        5- str1.concat(str2) ?? joins str2 with str1
+        6- str.replace(searchVal, newVal)
+        7- str.charAt(idx)
+    
+    Qs1:- Prompt the user to enter their full name. Generate a username for them based on 
+    the input. Start username with @, followed by their full name and ending with the fullanme length.
+    eg. username = " Vivek", username should be "@Vivek67"
