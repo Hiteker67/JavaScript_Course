@@ -1,0 +1,35 @@
+@Chapter 4 javaScript
+
+@Arrays In JS:- Collecttion of items
+    1-Create Arrays
+        let heros = ["ironman", "Hulk"];
+    
+    2- Array Indices:- arr[0], arr[1], arr[2]......
+    3- Looping Over an array :- Print all Element of Array
+        Using for Loop
+        while Loop
+        do-while loop
+        for-of loop
+        for-in loop
+
+Qs1 :- For a given array with marks of student -> [85, 97, 44, 37, 76, 60]
+find the average marks of the entire class.
+
+Qs2 :- For a given array with prices of 5 items -> [250, 645, 300, 900, 50]
+All items have an offer of 10% OFF on them. Change the array to store final price after 
+applying offer.
+
+@Array Methods:- 
+    1- Push(): add to end
+    2- Pop(): delete from end & return
+    3- toString(): converts array to string
+    4- concat(): JOINS MULTIPLE ARRAY & RETURN RESULT
+    5- unshift(): add to start
+    6- shift(): delete from start & return
+    7- slice(): returns a piece of the array [slice(startidx, endidx) ]
+    8- splice(): change original array (add, remove, replace) [splice(startidx, delCount, newEl1..)]
+
+Qs3 :- Create an array to store companies -> "Boomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
+    a- Remove the first comany from the array
+    b- Remove uber & Add Ola in its place
+    c- Add Amazon at the end
