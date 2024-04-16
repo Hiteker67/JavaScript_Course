@@ -1,0 +1,64 @@
+@Chapter 5 (Functions in JS)
+@Functions - Block of code that performs a specific task, can be invoked whenever needed
+    1- Function Definition-: 
+        function functionName(){
+            // do some work
+        }
+
+        function functionname(param1, param2, ....){
+            //do some work
+        }
+
+    2- Function Call:-
+        functionName();
+
+@Arrow Functions:- Compact way of writing a function
+
+    const functionname = (param1, param2, ...) => {
+
+    }
+
+Qs1- Create a function using the "function" keyword that takes a String as an argument &
+return the number of vowels in the string ?
+
+Qs2- Create an arrow function to perform the same task.
+
+@forEach Loop in Arrays:- 
+                    arr.forEach(callBackFunction)
+                    CallbackFunction : Here, it is a function to execute for each element in the Array
+
+                    *A callback is function passed as an argument to another function.
+
+                    arr.forEach(val) => {
+                        console.log(val);
+                    }
+
+Qs- What is higher Order functions/ Methods in jS ? (Interview Questions)
+
+Qs3 - For a given array of numbers, print the square of each value using the forEach loop.
+
+Some More Array Methods:- 
+    Map :- Creates a new array with the results of some operation.
+    the value is callback returns are used to form new array
+
+    arr.map( callbackFnx(value, index, array))
+
+    let newArr = arr.map((val) => {
+        return val*2;
+    })
+
+    Filter :- Creates a new array of element that give true for a confition/ filter.
+    eg. All Even Elements
+
+    let newArr = arr.filter((val) => {
+        return val%2 === 0;`
+    })
+
+    Reduce :- performs some operations & reduces the array to a single value.
+    It returns that single value.
+
+Qs4- We are given array of marks of student. Filter out of the marks of students that scored 90.
+
+Qs5 - Take a number n as input from user. Create an array of numbers from 1 to n.
+    use the reduce method to calculate sum of all numbers in the array.
+    use the reduce method to calculate product of all numbers in the array.
