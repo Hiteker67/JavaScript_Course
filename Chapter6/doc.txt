@@ -1,0 +1,42 @@
+#Chapter - 6 (DOM) Document Object Model
+    1- The Musketeers of web Dev (HTML - Structure, CSS - STyle, JS - Logic)
+#Starter code
+    1- <style> tag connects HTML with CSS
+    2- <script> tag connect HTML with JS
+# Window Object- The window object represents an open window in a browser. It is browser's object
+ (not Javascript) & is automatically created by browser.
+ It is a global object with lots of properties & methods.
+
+#Dom -Document Object Model
+    When a web page is loaded, the browser creates a Document Object Model(DOM) of the page
+    console.dir(document);
+
+#Dom Manipulation
+    1- Selecting with id
+    document.getElementById("myClass")
+
+    2- Selecting with class 
+    document.getElementByClassName("myClass")
+
+    3- Selecting with tag
+    document.getElementByTagName("p")
+
+    4- Query Selector - Node List return karta hai
+    document.querySelector("myId/myClass/tag")
+    //returns first getElementByClassName
+
+    document.querySelectorAll("myId/myClass/tag")
+    //returns a NodeList
+
+#Properties
+    1- tagName- returns tag for element Nodes
+    2- innerText - returns the text content of the element and all its children
+    3- innerHtml - returns the plain text or html contents in the elements
+    4- textContent: returns textual content even for hidden elements
+
+Ques1- Create a H2 heading element with text - "Hello javaScript". Append "from Apna College students"
+ to this text using JS.
+
+Ques2 - Create 3 divs with common class name - "box". Access them & add some unique text to each of them.
+
+    
